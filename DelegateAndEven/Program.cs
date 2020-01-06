@@ -42,6 +42,7 @@ namespace DelegateAndEvent
             //我们可以知道Object sender参数代表的是事件发布者本身，而EventArgs e 也就是监视对象了
             var dealer=new BookDealer();
             var consumer1=new Consumer("用户1");
+            //左边事件的拥有者和事件本身  右边是事件的订阅者和处理器
             dealer.NewBookInfo += consumer1.NewBookHere;
             dealer.NewBook("book112");
 
@@ -71,7 +72,7 @@ namespace DelegateAndEvent
 
             parson.FirEventHandler += anime.Action;
 
-            parson.OnFire(new FireEventArgs { Anime = anime });
+            parson.OnFire(new FireEventArgs { Animal = anime });
 
             #endregion
         }
