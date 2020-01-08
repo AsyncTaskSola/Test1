@@ -59,7 +59,8 @@ namespace DelegateAndEvent.Event3
         {
             Console.WriteLine("由于" + ((Person)obj).Name + "开枪，" + e.Animal.Name + "受到了惊吓。"); if (e.Animal.Name == "鸟")
             {
-            Console.WriteLine(e.Animal.Name + "飞了"); }
+                Console.WriteLine(e.Animal.Name + "飞了");
+            }
         }
         #region 第二种写法
         //internal void Action(Person sender, FireEventArgs e)
