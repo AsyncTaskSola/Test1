@@ -56,6 +56,5 @@ namespace Hospital.Tests
             Assert.InRange(p.BloodSugar,5,6);
             Assert.True(p.BloodSugar >= 5 && p.BloodSugar <= 6);
         }
-
     }
 }
