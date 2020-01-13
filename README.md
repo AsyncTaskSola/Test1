@@ -3,3 +3,4 @@
 ##### 添加事件和委托的区别 Eventhandle的用处 DelegateAndEvent Demo
 ##### 添加中间件的创建 NetCore MyMiddleware  demo
 ##### 添加Xunit的单元测试Hospital.Tests demo
+##### 添加PollyTestWaysDemo 重试机制的demo
